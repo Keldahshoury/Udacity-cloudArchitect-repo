@@ -1,0 +1,15 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),part-1-vpc,Amazon Virtual Private Cloud (VPC),0,292,3504,USD,"Working days per month (22), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Number of Site-to-Site VPN Connections (8), Number of subnet associations ()"
+My Estimate,US East (Ohio),,Amazon RDS for MySQL,0,5126.72,61520.64,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (2), Instance type (db.m4.10xlarge), Utilization (On-Demand only) (50 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (Ohio),,Amazon CloudFront,0,829.73,9956.76,USD,"Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (900 GB per month), Data transfer out to internet (700 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (700 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (700 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (900 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (700 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (500 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (900 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (700 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month), Data transfer out to internet (700 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (50000 per month)"
+My Estimate,US East (Ohio),,S3 Standard,0,250.27,3003.24,USD,S3 Standard storage (5000 GB per month)
+My Estimate,US East (Ohio),,Data Transfer,0,0,0,USD,"DT Inbound: Internet (100 TB per month), DT Outbound: Amazon CloudFront (100 TB per month)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+I made adjustments in the s3 bucket decreasing the storage available monthly and then changes the monthly available storage in the cloudfront in the smaller regions.,,,,,,,,
